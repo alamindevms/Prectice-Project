@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;700&display=swap');
+
+:root {
+  --bg-white: #ffffff; /*white*/
+  --bg-black: #000000; /*black*/
+  --bg-light: #0ae7e7; /*light*/
+  --font-white: #fbfbfb; /*white*/
+  --font-black: #000000; /*black*/
+  --font-light: #0ae7e7; /*light*/
+  --box-shadow-first: rgba(226, 226, 226, 0.411); /*top-color*/
+  --box-shadow-second: rgba(255, 255, 255, 0.479); /*top-color*/
+  --box-shadow: 10px 10px 15px #ebebeb, -10px -10px 15px #ffffff;
+}
+
+body {
+  background: var(--bg-white);
+  font-family: 'Teko',sans-serif;
+  color: var(--font-black);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+/*
+*----------------------------
+***** Header - Home
+*----------------------------
+*/
+#top-nav .navbar-brand {
+  font-size: 25px;
+  font-weight: 600;
+  color: #636262 !important;
+}
+#top-nav .collapse .navbar-nav .nav-item {
+  padding: 10px 15px;
+}
+#top-nav .collapse .navbar-nav .nav-item .nav-link {
+  font-size: 22px;
+}
+#top-nav .social .nav-link {
+  border-radius: 50%;
+  border: 1px solid #d2d2d266;
+  border-top-width: thick;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  color: #7f7f7f !important;
+  margin-left: 5px;
+  transition: all .3s ease-in-out;
+}
+#top-nav .social .nav-item:nth-child(1) .nav-link:hover{
+  color:#55acee !important;
+  border-color: #55acee !important;
+}
+#top-nav .social .nav-item:nth-child(2) .nav-link:hover{
+  color: #3b5999 !important;
+  border-color: #3b5999 !important;
+}
+#top-nav .social .nav-item:nth-child(3) .nav-link:hover {
+  color: #0077B5 !important;
+  border-color: #0077B5 !important;
+}
+#top-nav .social .nav-item:nth-child(4) .nav-link:hover{
+  color: #e4405f !important;
+  border-color: #e4405f !important;
+}
+/* Hero */
+.hero {
+  height: 600px;
+  width: 100% !important;
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+.hero .content h1 {
+  font-size: 50px;
+  color: #fff;
+  word-spacing: 5px;
+  line-height: 1;
+}
+.hero .content h2 {
+  color: #f4cb55;
+  font-size: 30px;
+}
+.hero .content p {
+  font-size: 21px;
+  font-weight: 300;
+  color: #e8e8e8;
+}
+.btn-about {
+  background: #fff;
+  color: #000 !important;
+  font-weight: 500;
+  letter-spacing: 2px;
+  border-radius: 2px !important;
+}
+.btn-hire,
+.all-project-btn {
+  background: #f4c13a;
+  color: #000 !important;
+  font-weight: 500;
+  letter-spacing: 2px;
+  border-radius: 2px !important;
+}
+/* Left Social */
+#top-nav .left-social {
+  width: 170px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+#top-nav .left-social .nav-item {
+  margin: 5px 0;
+  border-radius: 0 2px 2px 0;
+  transform: translateX(-120px);
+  transition: all 0.5s ease-in-out;
+}
+#top-nav .left-social .nav-item:hover {
+  transform: translateX(0px)
+}
+#top-nav .left-social .nav-item:nth-child(1){
+  background: #141414;
+}
+
+#top-nav .left-social .nav-item:nth-child(2){
+  background: #f48024;
+}
+
+#top-nav .left-social .nav-item:nth-child(3) {
+  background: #053eff;
+}
+
+#top-nav .left-social .nav-item .nav-link{
+  color: #fff !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-social .nav-item .nav-link span {
+  padding-left: 10px;
+}
+.left-social .nav-item .nav-link svg {
+  margin-right: 15px;
+  font-size: 26px;
+  width: 25px;
+  height: 25px;
+}
+
+
+
+/*
+*----------------------------
+***** Main - About
+*----------------------------
+*/
+.about-me {
+  background-image: url(../img/about-bg.jpg);
+  height: 500px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: -70px;
+  z-index: -1;
+}
+
+.about-me .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:rgb(24 24 24 / 83%);
+}
+
+
+/*
+*----------------------------
+***** Main - Portfolio
+*----------------------------
+*/
+
+
+/*
+*----------------------------
+***** Main - Team
+*----------------------------
+*/
+
+/*
+*----------------------------
+***** Footer - Contact
+*----------------------------
+*/
+
+/*
+*----------------------------
+***** Responsive
+*----------------------------
+*/
+
+
