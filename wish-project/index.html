@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Mistri Solution || Dashboard</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="apple-touch-icon" href="#" />
+		<!-- Bootstrap-CSS -->
+		<link rel="stylesheet" href="./css/bootstrap.min.css" />
+		<!-- Font-Awesome-CSS -->
+		<link rel="stylesheet" href="./css/fa.all.min.css" />
+		<!-- slick-CSS -->
+		<link rel="stylesheet" href="./css/slick.css" />
+		<!-- Animate.css -->
+		<link rel="stylesheet" href="./css/animate.min.css"/>
+		<!-- Custom-CSS -->
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+
+	<body>
+		<div class="dash-wrapper">
+			<!-- Header -->
+			<header>
+				<div class="top-nav">
+					<div class="container-fluid p-0">
+						<div class="row">
+							<div class="col-12 col-md-12 p-0">
+								<nav class="navbar navbar-expand-lg navbar-light bg-light d-flex fixed-top align-items-center m-0 p-0">
+									<a class="navbar-brand ml-3" href="index.html" >
+										<img src="./img/logo.png" class="img-fluid" alt="" />
+									</a>
+									<form class="form-inline">
+										<div class="input-group">
+											<input type="text" class="form-control" placeholder="Search.." />
+											<div class="input-group-append">
+												<button class="btn btn-outline-secondary" type="button" >
+													<i class="fas fa-search"></i>
+												</button>
+											</div>
+										</div>
+									</form>
+									
+
+									<div class="middle-icon d-none d-lg-block">
+										<ul class="navbar-nav navbar-expand-md">
+											<li class="nav-item active">
+												<a class="nav-link" href="#" >
+													<i class="fas fa-home"></i>
+												</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link" href="#">
+													<i class="fas fa-couch"></i>
+												</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link" href="#">
+													<i class="fas fa-chess-queen"></i>
+												</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link" href="#">
+													<i class="fas fa-th"></i>
+												</a>
+											</li>
+										</ul>
+									</div>
+									<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#userControl" aria-controls="userControl" aria-expanded="false" aria-label="Toggle navigation" >
+										<span class="navbar-toggler-icon"></span>
+									</button>
+									<div class="collapse navbar-collapse mr-5 user-icon" id="userControl" >
+										<ul class="navbar-nav ml-auto  align-items-center">
+											
+											<li class="nav-item">
+												<a class="nav-link" href="#" >
+													<i class="fas fa-bell"></i>
+												</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link" href="#">
+													<i class="fas fa-shopping-cart"></i>
+												</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link" href="#">
+													<i class="fas fa-heart"></i>
+												</a>
+											</li>
+											<li class="nav-item dropdown">
+												<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+													<img src="./img/user.png" class="img-fluid" alt="">
+												</a>
+												<div class="dropdown-menu" aria-labelledby="navbarDropdown" >
+													<a class="dropdown-item profile" href="#" >
+														<img src="./img/user.png" class="img-fluid" alt="">Profile Name <small>View profile</small>
+													</a >
+													<div class="dropdown-divider"></div>
+													
+													<a class="dropdown-item" href="#" >Wishlist</a >
+													<a class="dropdown-item" href="#" >Shipping Cart</a >
+													<a class="dropdown-item" href="#" >Order History</a >
+													<a class="dropdown-item" href="#" >Rewards</a >
+													<a class="dropdown-item" href="#" >Customer Support</a >
+													<div class="dropdown-divider"></div>
+													<a class="dropdown-item" href="#" >FAQ</a >
+													<a class="dropdown-item" href="#" >Settings</a >
+													<a class="dropdown-item" href="#" >Logout</a >
+												</div>
+											</li>
+										</ul>
+									</div>
+								</nav>
+								<!-- ./nav -->
+							</div>
+							<!-- ./col -->
+						</div>
+						<!-- ./row -->
+					</div>
+					<!-- ./container -->
+				</div>
+				<!-- ./top-nav -->
+			</header>
+			<!-- ./Header -->
+
+			<!-- Main -->
+			<main>
+				<div class="container-fluid p-0">
+					<div class="row">
+						<div class="col-md-2 primary-color">
+							<!-- left-sidebar -->
+							<aside class="main-sidebar d-none d-md-block">
+								<!-- Sidebar -->
+								<div class="sidebar">
+									<!-- Sidebar Menu -->
+									<p class="top-features">Top Features</p>
+									<ul class="navbar-nav">
+										<li class="nav-item">
+											<a class="nav-link" href="#">
+												<i class="fas fa-certificate"></i> Brands
+											</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#">
+												<i class="fas fa-star"></i>Popular
+											</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#">
+												<i class="fas fa-history"></i>Recent
+											</a>
+										</li>
+										<li class="nav-item sub-menu">
+											<a class="nav-link " href="#" >
+									          <i class="fas fa-th-large"></i>Categories
+									        </a>
+									        <ul class="sub-menu-wrap animate__animated animate__fadeInLeft">
+									        	<li class="sub-menu-item">
+									        		<a href="#">
+									        			<div class="item-content">
+									        				<img src="./img/products/6.png" alt="">
+									        				<h4>Sofa</h4>
+									        			</div>
+									        		</a>
+									        	</li>
+									        	<li class="sub-menu-item">
+									        		<a href="#">
+									        			<div class="item-content">
+									        				<img src="./img/products/12.jpg" alt="">
+									        				<h4>Table</h4>
+									        			</div>
+									        		</a>
+									        	</li>
+									        	<li class="sub-menu-item">
+									        		<a href="#">
+									        			<div class="item-content">
+									        				<img src="./img/products/9.png" alt="">
+									        				<h4>Chair</h4>
+									        			</div>
+									        		</a>
+									        	</li>
+									        	<li class="sub-menu-item">
+									        		<a href="#">
+									        			<div class="item-content">
+									        				<img src="./img/products/10.png" alt="">
+									        				<h4>Bed</h4>
+									        			</div>
+									        		</a>
+									        	</li>
+
+									        </ul>
+										</li>
+									</ul>
+									<!-- /.sidebar-menu -->
+								</div>
+								<!-- /.sidebar -->
+							</aside>
+						</div>
+						<!-- ./col -->
+						<div class="col-md-8 secondary-color">
+							<!-- main-section-body -->
+							<div class="main-col">
+								<div class="container pb-3">
+									<!-- slider -->
+									<div class="row">
+										<div class="col-12">
+											<div class="top-slider">
+												<div class="inner-slider ">
+													<div class="slider-item">
+														<img src="./img/products/17.jpg" alt="">
+													</div>
+													<div class="slider-item">
+														<img src="./img/products/2.jpg" alt="">
+													</div>
+													<div class="slider-item">
+														<img src="./img/products/3.jpg" alt="">
+													</div>
+												</div>
+												<div class="arrow-prev">
+													<i class="fas fa-angle-left"></i>
+												</div>
+												<div class="arrow-next">
+													<i class="fas fa-angle-right"></i>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="row my-3">
+										<div class="col-md-6 col-lg-4">
+											<div class="product-item">
+												<a href="./pages/product.html" class="card">
+													<div class="card-body">
+														<img src="./img/products/9.png" class="img-fluid" alt="">
+													</div>
+													<div class="card-footer">
+														<small>
+														Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+													    </small>
+														<div class="price">
+															<p>$300</p>
+															<div class="wishlisl-btn">
+																<button class="btn">
+																	<i class="fas fa-heart"></i>
+																</button>
+																<button class="btn">
+																	<i class="fas fa-plus"></i>
+																</button>
+															</div>
+														</div>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="col-md-6 col-lg-4">
+											<div class="product-item">
+												<a href="./pages/product.html" class="card">
+													<div class="card-body">
+														<img src="./img/products/6.png" class="img-fluid" alt="">
+													</div>
+													<div class="card-footer">
+														<small>
+														Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+													    </small>
+														<div class="price">
+															<p>$100</p>
+															<div class="wishlisl-btn">
+																<button class="btn">
+																	<i class="fas fa-heart"></i>
+																</button>
+																<button class="btn">
+																	<i class="fas fa-plus"></i>
+																</button>
+															</div>
+														</div>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="col-md-6 col-lg-4">
+											<div class="product-item">
+												<a href="./pages/product.html" class="card">
+													<div class="card-body">
+														<img src="./img/products/8.png" class="img-fluid" alt="">
+													</div>
+													<div class="card-footer">
+														<small>
+														Lorem, ipsum dolor sit amet consectetur elit.
+													    </small>
+														<div class="price">
+															<p>$250</p>
+															<div class="wishlisl-btn">
+																<button class="btn">
+																	<i class="fas fa-heart"></i>
+																</button>
+																<button class="btn">
+																	<i class="fas fa-plus"></i>
+																</button>
+															</div>
+														</div>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="col-md-6 col-lg-4">
+											<div class="product-item">
+												<a href="./pages/product.html" class="card">
+													<div class="card-body">
+														<img src="./img/products/9.png" class="img-fluid" alt="">
+													</div>
+													<div class="card-footer">
+														<small>
+														Lorem, ipsum dolor sit amet adipisicing elit.
+													    </small>
+														<div class="price">
+															<p>$80</p>
+															<div class="wishlisl-btn">
+																<button class="btn">
+																	<i class="fas fa-heart"></i>
+																</button>
+																<button class="btn">
+																	<i class="fas fa-plus"></i>
+																</button>
+															</div>
+														</div>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="col-md-6 col-lg-4">
+											<div class="product-item">
+												<a href="./pages/product.html" class="card">
+													<div class="card-body">
+														<img src="./img/products/10.png" class="img-fluid" alt="">
+													</div>
+													<div class="card-footer">
+														<small>
+														Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+													    </small>
+														<div class="price">
+															<p>$140</p>
+															<div class="wishlisl-btn">
+																<button class="btn">
+																	<i class="fas fa-heart"></i>
+																</button>
+																<button class="btn">
+																	<i class="fas fa-plus"></i>
+																</button>
+															</div>
+														</div>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="col-md-6 col-lg-4">
+											<div class="product-item">
+												<a href="./pages/product.html" class="card">
+													<div class="card-body">
+														<img src="./img/products/11.jpg" class="img-fluid" alt="">
+													</div>
+													<div class="card-footer">
+														<small>
+														Lorem, ipsum dolor sit amet adipisicing elit.
+													    </small>
+														<div class="price">
+															<p>$200</p>
+															<div class="wishlisl-btn">
+																<button class="btn">
+																	<i class="fas fa-heart"></i>
+																</button>
+																<button class="btn">
+																	<i class="fas fa-plus"></i>
+																</button>
+															</div>
+														</div>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="col-md-6 col-lg-4">
+											<div class="product-item">
+												<a href="./pages/product.html" class="card">
+													<div class="card-body">
+														<img src="./img/products/13.jpg" class="img-fluid" alt="">
+													</div>
+													<div class="card-footer">
+														<small>
+														Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+													    </small>
+														<div class="price">
+															<p>$200</p>
+															<div class="wishlisl-btn">
+																<button class="btn">
+																	<i class="fas fa-heart"></i>
+																</button>
+																<button class="btn">
+																	<i class="fas fa-plus"></i>
+																</button>
+															</div>
+														</div>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="col-md-6 col-lg-4">
+											<div class="product-item">
+												<a href="./pages/product.html" class="card">
+													<div class="card-body">
+														<img src="./img/products/14.jpg" class="img-fluid" alt="">
+													</div>
+													<div class="card-footer">
+														<small>
+														Lorem, ipsum dolor sit adipisicing elit.
+													    </small>
+														<div class="price">
+															<p>$200</p>
+															<div class="wishlisl-btn">
+																<button class="btn">
+																	<i class="fas fa-heart"></i>
+																</button>
+																<button class="btn">
+																	<i class="fas fa-plus"></i>
+																</button>
+															</div>
+														</div>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="col-md-6 col-lg-4">
+											<div class="product-item">
+												<a href="./pages/product.html" class="card">
+													<div class="card-body">
+														<img src="./img/products/15.jpg" class="img-fluid" alt="">
+													</div>
+													<div class="card-footer">
+														<small>
+														Lorem, ipsum dolor sit amet adipisicing elit.
+													    </small>
+														<div class="price">
+															<p>$200</p>
+															<div class="wishlisl-btn">
+																<button class="btn">
+																	<i class="fas fa-heart"></i>
+																</button>
+																<button class="btn">
+																	<i class="fas fa-plus"></i>
+																</button>
+															</div>
+														</div>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="col-md-6 col-lg-4">
+											<div class="product-item">
+												<a href="./pages/product.html" class="card">
+													<div class="card-body">
+														<img src="./img/products/16.jpg" class="img-fluid" alt="">
+													</div>
+													<div class="card-footer">
+														<small>
+														Lorem, ipsum dolor sit amet.
+													    </small>
+														<div class="price">
+															<p>$200</p>
+															<div class="wishlisl-btn">
+																<button class="btn">
+																	<i class="fas fa-heart"></i>
+																</button>
+																<button class="btn">
+																	<i class="fas fa-plus"></i>
+																</button>
+															</div>
+														</div>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="col-md-6 col-lg-4">
+											<div class="product-item">
+												<a href="./pages/product.html" class="card">
+													<div class="card-body">
+														<img src="./img/products/1.jpg" class="img-fluid" alt="">
+													</div>
+													<div class="card-footer">
+														<small>
+														Lorem, ipsum dolor sit amet consectetur.
+													    </small>
+														<div class="price">
+															<p>$200</p>
+															<div class="wishlisl-btn">
+																<button class="btn">
+																	<i class="fas fa-heart"></i>
+																</button>
+																<button class="btn">
+																	<i class="fas fa-plus"></i>
+																</button>
+															</div>
+														</div>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="col-md-6 col-lg-4">
+											<div class="product-item">
+												<a href="./pages/product.html" class="card">
+													<div class="card-body">
+														<img src="./img/products/2.jpg" class="img-fluid" alt="">
+													</div>
+													<div class="card-footer">
+														<small>
+														Lorem, ipsum dolor sit amet consectetur elit.
+													    </small>
+														<div class="price">
+															<p>$200</p>
+															<div class="wishlisl-btn">
+																<button class="btn">
+																	<i class="fas fa-heart"></i>
+																</button>
+																<button class="btn">
+																	<i class="fas fa-plus"></i>
+																</button>
+															</div>
+														</div>
+													</div>
+												</a>
+											</div>
+										</div>						
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- ./col -->
+						<div class="col-md-2  d-none d-md-block primary-color p-0">
+							<!-- right-side-bar -->
+							<aside class="right-side">
+								<!-- Sidebar -->
+								<div class="sidebar">
+									<p class="top-features">Recommended</p>
+									<div class="quick-box">
+										<div class="row">
+											<div class="col-md-12">
+												<div class="quick-item">
+													<img src="./img/products/7.png" class="img-fluid" alt="">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="quick-item">
+													<img src="./img/products/8.png" class="img-fluid" alt="">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="quick-item">
+													<img src="./img/products/9.png" class="img-fluid" alt="">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="quick-item">
+													<img src="./img/products/10.png" class="img-fluid" alt="">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="quick-item">
+													<img src="./img/products/11.jpg" class="img-fluid" alt="">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="quick-item">
+													<img src="./img/products/12.jpg" class="img-fluid" alt="">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="quick-item">
+													<img src="./img/products/13.jpg" class="img-fluid" alt="">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="quick-item">
+													<img src="./img/products/14.jpg" class="img-fluid" alt="">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="quick-item">
+													<img src="./img/products/15.jpg" class="img-fluid" alt="">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="quick-item">
+													<img src="./img/products/16.jpg" class="img-fluid" alt="">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="quick-item">
+													<img src="./img/products/17.jpg" class="img-fluid" alt="">
+												</div>
+											</div>
+
+										</div>
+									</div>
+								</div>
+								<!-- /.sidebar -->
+							</aside>
+						</div>
+						<!-- ./col -->
+					</div>
+					<!-- ./row -->
+				</div>
+				<!-- ./container -->
+			</main>
+			<!-- ./Main -->
+
+			<!-- Footer -->
+			<footer>
+				
+			</footer>
+			<!-- ./Footer -->
+			
+
+
+			<!-- mobile-view -->
+			<div class="mobile-view-icon">
+				<i class="fas fa-bars"></i>
+			</div>
+		</div>
+
+
+
+		<!-- Jquery & Bootstrap-JS -->
+		<script src="./js/jquery.js"></script>
+		<script src="./js/popper.js"></script>
+		<!-- Font-Awesome-CSS -->
+		<script src="./js/fa.all.min.js"></script>
+		<!-- Bootstrap-CSS -->
+		<script src="./js/bootstrap.min.js"></script>
+		<!-- slick-JS -->
+		<script src="./js/slick.min.js"></script>
+		<!-- Main-JS -->
+		<script src="./js/main.js"></script>
+
+		<script>
+			
+			$(document).ready(function(){
+				
+				// slick
+				$('.inner-slider').slick({
+				  	dots: false,
+				  	autoplay: true,
+				  	autoplaySpeed: 1500,
+				  	fade: true,
+				  	fadeSpeed: 4000,
+				  	centerMode: true,
+  					focusOnSelect: false,
+  					pauseOnHover: false,
+					prevArrow: '.arrow-prev',
+					nextArrow: '.arrow-next'
+				});
+
+			});
+			
+			
+			
+		</script>
+	</body>
+</html>
